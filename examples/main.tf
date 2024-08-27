@@ -1,9 +1,5 @@
-# Usage
-
-### Please copy paste below code
-```
 module "testns" {
-    source = "eminbaev/namespace/kubernates"
+  source = "../"
   name   = "testns"
   annotations = {
     new = "application"
@@ -12,5 +8,3 @@ module "testns" {
     createdby = "eminbaev"
   }
 }
-
-```
