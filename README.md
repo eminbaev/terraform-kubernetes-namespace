@@ -3,7 +3,7 @@
 ### Please copy paste below code
 ```
 module "testns" {
-    source = "eminbaev/namespace/kubernates"
+  source = "eminbaev/namespace/kubernates"
   name   = "testns"
   annotations = {
     new = "application"
