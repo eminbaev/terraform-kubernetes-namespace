@@ -1,9 +1,10 @@
 # Usage
 
-### Please copy paste below code
+### Please copy and paste the below code
 ```
-module "testns" {
-  source = "eminbaev/namespace/kubernates"
+module "namespace" {
+  source           = "eminbaev/namespace/kubernetes"
+  version          = "0.0.4"
   name             = "testns"
   pod_quota        = 40
   pod_cpu_limit    = "150m"
