@@ -18,7 +18,7 @@ variable "labels" {
 
 variable "pod_quota" {
   description = "please specify pod quota"
-  type        = string
+  type        = number
   default     = ""
 }
 
