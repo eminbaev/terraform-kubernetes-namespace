@@ -19,7 +19,7 @@ variable "labels" {
 variable "pod_quota" {
   description = "please specify pod quota"
   type        = number
-  default     = ""
+  default     = 10
 }
 
 variable "pod_cpu_limit" {
