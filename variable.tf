@@ -25,11 +25,11 @@ variable "pod_quota" {
 variable "pod_cpu_limit" {
   description = "please specify cpu limit"
   type        = string
-  default     = ""
+  default     = "50m"
 }
 
 variable "pod_memory_limit" {
   description = "please specify memory limit"
   type        = string
-  default     = ""
+  default     = "128Mi"
 }
