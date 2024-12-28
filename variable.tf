@@ -18,18 +18,18 @@ variable "labels" {
 
 variable "pod_quota" {
   description = "please specify pod quota"
-  type        = number
-  default     = 10
+  type        = string
+  default     = null
 }
 
 variable "pod_cpu_limit" {
   description = "please specify cpu limit"
   type        = string
-  default     = "50m"
+  default     = null
 }
 
 variable "pod_memory_limit" {
   description = "please specify memory limit"
   type        = string
-  default     = "128Mi"
+  default     = null
 }
